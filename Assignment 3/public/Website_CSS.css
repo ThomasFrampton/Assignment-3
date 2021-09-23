@@ -1,0 +1,188 @@
+/* Change the background colour for each page */
+body {
+    background-color: #9dcaf4;
+}
+
+/* Change the Heading font, size and location */
+h1 {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 70px;
+    text-align: center;
+}
+
+/* For the Profile Picture Circle. Makes the item circular, sets the colour to gray and sets the size. */
+.circle {
+    border-radius: 500px;
+    background-color: #c4c4c4;
+    width: 45px;
+    height: 45px;
+}
+
+/*Removes Marker from the list items.*/
+ul {
+    list-style-type: none;
+}
+
+/*Hides the element, and sets its position slightly left. */
+li ul {
+    display: none;
+    left: -20px;
+    position: relative;
+}
+
+/*When hovered over, the element is shown as a block element. */
+li:hover ul {
+    display: block;
+}
+
+/*Floats the element to the right, which relative positioning */
+.Profilemenu {
+    float: right;
+    position: relative;
+}
+
+/* For the Navigation Bar at the top. Sets the colour, all text within to a universal font and size. */
+.topnav {
+    background-color: #e77de2;
+    font-family: Roboto;
+    overflow: hidden;
+    font-size: 20px;
+
+}
+
+ /* Affects the three links in the Navigation - they float to the left of the bar, with padding seperating each. Removes underline from Hyperlink. */
+.topnav a {
+    float: left;
+    text-align: center;
+    padding: 14px 16px;
+    color: #000000;
+    text-decoration: none;
+}
+
+/* When hovered over, each link changes its colour */
+.topnav a:hover {
+    background-color: #eb388e;
+    color: #000000;
+}
+
+/* The current active page will display different from its counterparts, with a different background and font colour.*/
+.topnav a.active {
+    background-color: #ca66f2;
+    color: #612dd2;
+}
+
+    /* Floats the items to the right. Centers text, with a small amount of padding to prevent touching borders.*/
+.topnav right {
+    float: right;
+    text-align: center;
+    padding: 2px 8px;
+    color: #000000;
+}
+
+    /* Affect the text on the right beside the circle. Follows the same properties as 'right', with additional padding. */
+.topnav righttext {
+    float: right;
+    text-align: center;
+    padding: 12px 8px;
+    color: #000000;
+}
+
+/* Used to format the placeholder car listings. Creates a small black border around each, floating each in a consistent pattern to display equal distance apart. */
+.CarImage {
+    float: left;
+    border: 3px solid #000000;
+    font-family: Roboto;
+    margin-left: 33px;
+    margin-bottom: 40px;
+}
+
+/* Formats the Gray Square within each CarImage. Sets size and colour of the item. */
+.GraySquare {
+    background-color: #c4c4c4;
+    width: 255px;
+    height: 184px;
+}
+
+/* Formats the Placeholder text. Centers the text, sets size and spacing between letters.*/
+.CarImage ImageText {
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 0;
+}
+
+/* Formats the White Rectangle within each CarImage. Sets size and colour of the item. */
+.WhiteRectangle {
+    background-color: #ffffff;
+    width: 255px;
+    height: 66px;
+}
+
+/* Formats the Placeholder text for the Car Information. Sets size and position.*/
+.CarImage InfoText {
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 0;
+}
+
+/* Centers all associated items, and sets text size to 20. */
+.Search {
+    text-align: Center;
+    font-size: 20px;
+}
+
+/* Sets the size of the text box. */
+#carname {
+    font-size: 20px;
+}
+
+/* Formats the Search Button. Creates space around word and sets font size */
+.Fake {
+    font-size: 15px;
+    padding: 5px;
+    margin: auto;
+    display: block;
+}
+
+/* Centers all text as it appears, and hides it upon loading the website intially. Used in Dummy Search. */
+.SearchResult {
+    text-align: center;
+    display: none;
+}
+
+/* Sets text size to very small, for disclaimer message. */
+.SearchResult2 {
+    font-size: 5px;
+}
+
+/* Floats all items within to the left of screen, in a box of 57% the size of the screen. The box has padding of 10 pixels. Placeholder Text is centered and 35 pixel big. */
+contactleft {
+    float: left;
+    width: 57%;
+    background-color: #c4c4c4;
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+}
+
+/* Floats all items within to the right of screen, in a box of 35% the size of the screen. The box has padding of 10 pixels. */
+contactright {
+    float: right;
+    width: 35%;
+    color: #000000;
+    padding: 10px;
+}
+
+/*Sets the colour and design of the break line. */
+hr {
+    border-color: #000000;
+    border-style: dashed;
+}
+
+/*Sets the sizes of the images to prevent breaking out of div boundaries */
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
