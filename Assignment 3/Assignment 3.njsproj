@@ -53,9 +53,6 @@
     <Content Include="src\components\ContactPage.vue">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="src\components\Login.vue">
-      <SubType>Code</SubType>
-    </Content>
     <Content Include="src\components\Profile.vue">
       <SubType>Code</SubType>
     </Content>
